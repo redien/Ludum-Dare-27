@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{080CCAEC-DA2E-5A0F-61A6-3B4C294A856F}</ProjectGuid>
+	<ProjectGuid>{A351852D-77E1-FD7D-9916-75E07BB65504}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -45,8 +45,16 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Cubes\Cube.cs" />
+     <Compile Include="Assets\Cubes\SoundEffect.cs" />
+     <Compile Include="Assets\Cubes\SoundEffectProxy.cs" />
      <Compile Include="Assets\Game.cs" />
      <Compile Include="Assets\Grid.cs" />
+     <Compile Include="Assets\RandomizeMaterial.cs" />
+     <None Include="Assets\Cubes\PlaidShader.shader" />
+     <None Include="Assets\Cubes\LineShader.shader" />
+     <None Include="Assets\Cubes\CircleShader.shader" />
+     <None Include="Assets\Cubes\TriangleShader.shader" />
+     <None Include="Assets\Cubes\StarShader.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

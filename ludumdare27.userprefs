@@ -1,0 +1,21 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Game.cs">
+    <Files>
+      <File FileName="Assets\Cubes\CircleShader.shader" Line="50" Column="177" />
+      <File FileName="Assets\Cubes\SoundEffect.cs" Line="16" Column="2" />
+      <File FileName="Assets\Cubes\SoundEffectProxy.cs" Line="10" Column="4" />
+      <File FileName="Assets\Cubes\Cube.cs" Line="22" Column="4" />
+      <File FileName="Assets\Game.cs" Line="65" Column="1" />
+      <File FileName="Assets\Cubes\PlaidShader.shader" Line="51" Column="171" />
+      <File FileName="Assets\Cubes\LineShader.shader" Line="48" Column="173" />
+      <File FileName="Assets\Cubes\TriangleShader.shader" Line="59" Column="179" />
+      <File FileName="Assets\Cubes\StarShader.shader" Line="63" Column="81" />
+      <File FileName="Assets\RandomizeMaterial.cs" Line="11" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
