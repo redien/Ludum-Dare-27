@@ -41,7 +41,7 @@ Shader "Custom/LineShader" {
 		}
 
 		float4 makeStripes (float2 coordinates, float2 pattern_offset, float lines, float stripe_size, float stripe_fuzziness) {
-			return cutoff(sin((pattern_offset.x + coordinates.x) * lines * 4), stripe_size, stripe_fuzziness) / 2;
+			return cutoff(sin((pattern_offset.x + coordinates.x) * lines * 4), stripe_size, stripe_fuzziness);
 		}
 
 		void surf (Input IN, inout SurfaceOutput o) {

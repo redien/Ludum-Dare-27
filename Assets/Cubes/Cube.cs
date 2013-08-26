@@ -12,7 +12,10 @@ public class Cube : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-		originalPosition = transform.localPosition;
+	}
+	
+	public void SetOriginalPosition(Vector3 position) {
+		originalPosition = position;
 	}
 	
 	// Update is called once per frame
